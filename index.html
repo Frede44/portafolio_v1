@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="sticky top-0 z-50">
+        <nav class="bg-white p-4 border-b border-gray-200  ">
+            <div class="container mx-auto flex items-center justify-between">
+                <a href="#" class="text-black text-lg font-bold">Mi Portafolio</a>
+                <div class="space-x-4">
+                    <a href="#Home" class="text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="#MisProyectos" class="text-gray-700 hover:text-blue-600">Mis Proyectos</a>
+                    <a href="#Contact" class="text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="Home"
+            class="flex flex-col items-center justify-center h-screen bg-radial from-blue-500/20 to-blue-800/20 ">
+            <div class="w-150">
+                <h1
+                    class="font-bold text-6xl text-center bg-linear-to-r from-blue-500 to-violet-500 bg-clip-text font-extrabold text-transparent ">
+                    Desarrollador Full Stack</h1>
+                <p class="text-center pt-3 text-xl ">Soy un desarrollador web apasionado por crear experiencias
+                    digitales excepcionales.</p>
+                <p class="text-center text-gray-600 pt-4 ">Especializado en desarrollo web moderno, aplicaciones móviles
+                    y soluciones de inteligencia artificial. Transformo ideas en productos digitales excepcionales.</p>
+            </div>
+            <div class="pt-10">
+                <button class="border-2 p-3 bg-blue-600 rounded-xl text-white hover:bg-blue-700 hover:shadow-md "><a
+                        href="#MisProyectos">ver
+                        proyectos</a></button>
+                <button class="border-blue-600 p-3 text-blue-600 font-bold border-2 rounded-xl hover:bg-blue-100 "><a
+                        href="#Contact">contactar</a></button>
+            </div>
+            <div class="flex m-4 ">
+                <a href="https://github.com/Frede44" target="_blank" rel="noopener noreferrer" class="p-3">
+                    <i class="fa-brands fa-github hover:text-blue-600 text-xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/frederick-josué-alva-lópez-2b5362345" target="_blank"
+                    rel="noopener noreferrer" class="p-3">
+                    <i class="fa-brands fa-linkedin-in hover:text-blue-600 text-xl"></i>
+                </a>
+                <a href="mailto:alvafrederick45@gmail.com" target="_blank" rel="noopener noreferrer" class="p-3 ">
+                    <i class="fa-regular fa-envelope hover:text-blue-600 text-xl"></i>
+                </a>
+            </div>
+        </section>
+        <section id="MisProyectos" class="p-10  bg-white flex flex-col items-center justify-center w-full">
+            <h2
+                class="pt-4 font-bold text-3xl text-center bg-linear-to-r from-blue-500 to-violet-500 bg-clip-text font-extrabold text-transparent">
+                Mis Proyectos</h2>
+            <p class="text-gray-600 pb-4">Aquí están algunos de mis proyectos más d estacados.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-10 w-full max-w-4xl">
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 group">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://www.hubspot.com/hubfs/media/sitioweb-1.jpeg" alt="Proyecto 1 
+                        Imagen" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    <div class="p-3">
+                        <h3 class="font-bold text-lg">Proyecto 1</h3>
+                        <p class="text-xs">Plataforma completa de comercio electrónico con carrito de compras, pasarela
+                            de pagos y panel de administración..</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2  p-3">
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">Laravel
+                        </div>
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">Tailwind
+                            CSS</div>
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">
+                            JavaScript</div>
+                    </div>
+
+                    <div class="p-3 pt-0">
+                        <div class="flex items-center gap-4 text-sm text-gray-700">
+                            <p class="flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-4 h-4">
+                                    <path
+                                        d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 2c1.65 0 3.14.67 4.22 1.76l-2.1 2.1A5 5 0 0 0 12 7V4Zm-2 0v3a5 5 0 0 0-2.12.86l-2.1-2.1A7.95 7.95 0 0 1 10 4Zm-5.66 3.34 2.1 2.1A5 5 0 0 0 5 12H2c0-1.79.58-3.45 1.34-4.66ZM2 14h3a5 5 0 0 0 1.44 2.56l-2.1 2.1A7.96 7.96 0 0 1 2 14Zm3.34 5.66 2.1-2.1A5 5 0 0 0 10 17v3a7.95 7.95 0 0 1-4.66-1.34ZM12 20v-3a5 5 0 0 0 2.56-1.44l2.1 2.1A7.95 7.95 0 0 1 12 20Zm4.66-1.34-2.1-2.1A5 5 0 0 0 19 14h3a7.96 7.96 0 0 1-2.34 4.66ZM19 12a5 5 0 0 0-1.44-2.56l2.1-2.1A7.96 7.96 0 0 1 22 12h-3Z" />
+                                </svg>
+                                demo
+                            </p>
+                            <p class="flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-4 h-4">
+                                    <path fill-rule="evenodd"
+                                        d="M12 2C6.477 2 2 6.586 2 12.244c0 4.525 2.865 8.365 6.839 9.72.5.094.682-.222.682-.493 0-.243-.009-.887-.014-1.742-2.782.618-3.369-1.375-3.369-1.375-.455-1.18-1.11-1.494-1.11-1.494-.908-.636.069-.623.069-.623 1.004.072 1.532 1.056 1.532 1.056.893 1.566 2.341 1.114 2.91.851.09-.667.35-1.114.636-1.37-2.22-.259-4.555-1.14-4.555-5.075 0-1.121.39-2.037 1.029-2.755-.103-.26-.446-1.304.098-2.718 0 0 .84-.274 2.75 1.052A9.32 9.32 0 0 1 12 7.1c.85.004 1.706.117 2.504.344 1.909-1.326 2.748-1.052 2.748-1.052.546 1.414.203 2.458.1 2.718.64.718 1.027 1.634 1.027 2.755 0 3.945-2.339 4.813-4.566 5.067.359.318.678.944.678 1.902 0 1.372-.012 2.478-.012 2.815 0 .274.18.592.688.492A10.257 10.257 0 0 0 22 12.244C22 6.586 17.523 2 12 2Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                codigo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 group">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://www.hubspot.com/hubfs/media/sitioweb-1.jpeg" alt="Proyecto 1 
+                        Imagen" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    <div class="p-3">
+                        <h3 class="font-bold text-lg">Proyecto 1</h3>
+                        <p class="text-xs">Plataforma completa de comercio electrónico con carrito de compras, pasarela
+                            de pagos y panel de administración..</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2  p-3">
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">Laravel
+                        </div>
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">Tailwind
+                            CSS</div>
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">
+                            JavaScript</div>
+                    </div>
+
+                    <div class="p-3 pt-0">
+                        <div class="flex items-center gap-4 text-sm text-gray-700">
+                            <p class="flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-4 h-4">
+                                    <path
+                                        d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 2c1.65 0 3.14.67 4.22 1.76l-2.1 2.1A5 5 0 0 0 12 7V4Zm-2 0v3a5 5 0 0 0-2.12.86l-2.1-2.1A7.95 7.95 0 0 1 10 4Zm-5.66 3.34 2.1 2.1A5 5 0 0 0 5 12H2c0-1.79.58-3.45 1.34-4.66ZM2 14h3a5 5 0 0 0 1.44 2.56l-2.1 2.1A7.96 7.96 0 0 1 2 14Zm3.34 5.66 2.1-2.1A5 5 0 0 0 10 17v3a7.95 7.95 0 0 1-4.66-1.34ZM12 20v-3a5 5 0 0 0 2.56-1.44l2.1 2.1A7.95 7.95 0 0 1 12 20Zm4.66-1.34-2.1-2.1A5 5 0 0 0 19 14h3a7.96 7.96 0 0 1-2.34 4.66ZM19 12a5 5 0 0 0-1.44-2.56l2.1-2.1A7.96 7.96 0 0 1 22 12h-3Z" />
+                                </svg>
+                                demo
+                            </p>
+                            <p class="flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-4 h-4">
+                                    <path fill-rule="evenodd"
+                                        d="M12 2C6.477 2 2 6.586 2 12.244c0 4.525 2.865 8.365 6.839 9.72.5.094.682-.222.682-.493 0-.243-.009-.887-.014-1.742-2.782.618-3.369-1.375-3.369-1.375-.455-1.18-1.11-1.494-1.11-1.494-.908-.636.069-.623.069-.623 1.004.072 1.532 1.056 1.532 1.056.893 1.566 2.341 1.114 2.91.851.09-.667.35-1.114.636-1.37-2.22-.259-4.555-1.14-4.555-5.075 0-1.121.39-2.037 1.029-2.755-.103-.26-.446-1.304.098-2.718 0 0 .84-.274 2.75 1.052A9.32 9.32 0 0 1 12 7.1c.85.004 1.706.117 2.504.344 1.909-1.326 2.748-1.052 2.748-1.052.546 1.414.203 2.458.1 2.718.64.718 1.027 1.634 1.027 2.755 0 3.945-2.339 4.813-4.566 5.067.359.318.678.944.678 1.902 0 1.372-.012 2.478-.012 2.815 0 .274.18.592.688.492A10.257 10.257 0 0 0 22 12.244C22 6.586 17.523 2 12 2Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                codigo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 group">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://www.hubspot.com/hubfs/media/sitioweb-1.jpeg" alt="Proyecto 1 
+                        Imagen" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    <div class="p-3">
+                        <h3 class="font-bold text-lg">Proyecto 1</h3>
+                        <p class="text-xs">Plataforma completa de comercio electrónico con carrito de compras, pasarela
+                            de pagos y panel de administración..</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2  p-3">
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">Laravel
+                        </div>
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">Tailwind
+                            CSS</div>
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">
+                            JavaScript</div>
+                    </div>
+
+                    <div class="p-3 pt-0">
+                        <div class="flex items-center gap-4 text-sm text-gray-700">
+                            <p class="flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-4 h-4">
+                                    <path
+                                        d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 2c1.65 0 3.14.67 4.22 1.76l-2.1 2.1A5 5 0 0 0 12 7V4Zm-2 0v3a5 5 0 0 0-2.12.86l-2.1-2.1A7.95 7.95 0 0 1 10 4Zm-5.66 3.34 2.1 2.1A5 5 0 0 0 5 12H2c0-1.79.58-3.45 1.34-4.66ZM2 14h3a5 5 0 0 0 1.44 2.56l-2.1 2.1A7.96 7.96 0 0 1 2 14Zm3.34 5.66 2.1-2.1A5 5 0 0 0 10 17v3a7.95 7.95 0 0 1-4.66-1.34ZM12 20v-3a5 5 0 0 0 2.56-1.44l2.1 2.1A7.95 7.95 0 0 1 12 20Zm4.66-1.34-2.1-2.1A5 5 0 0 0 19 14h3a7.96 7.96 0 0 1-2.34 4.66ZM19 12a5 5 0 0 0-1.44-2.56l2.1-2.1A7.96 7.96 0 0 1 22 12h-3Z" />
+                                </svg>
+                                demo
+                            </p>
+                            <p class="flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-4 h-4">
+                                    <path fill-rule="evenodd"
+                                        d="M12 2C6.477 2 2 6.586 2 12.244c0 4.525 2.865 8.365 6.839 9.72.5.094.682-.222.682-.493 0-.243-.009-.887-.014-1.742-2.782.618-3.369-1.375-3.369-1.375-.455-1.18-1.11-1.494-1.11-1.494-.908-.636.069-.623.069-.623 1.004.072 1.532 1.056 1.532 1.056.893 1.566 2.341 1.114 2.91.851.09-.667.35-1.114.636-1.37-2.22-.259-4.555-1.14-4.555-5.075 0-1.121.39-2.037 1.029-2.755-.103-.26-.446-1.304.098-2.718 0 0 .84-.274 2.75 1.052A9.32 9.32 0 0 1 12 7.1c.85.004 1.706.117 2.504.344 1.909-1.326 2.748-1.052 2.748-1.052.546 1.414.203 2.458.1 2.718.64.718 1.027 1.634 1.027 2.755 0 3.945-2.339 4.813-4.566 5.067.359.318.678.944.678 1.902 0 1.372-.012 2.478-.012 2.815 0 .274.18.592.688.492A10.257 10.257 0 0 0 22 12.244C22 6.586 17.523 2 12 2Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                codigo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 group">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://www.hubspot.com/hubfs/media/sitioweb-1.jpeg" alt="Proyecto 1 
+                        Imagen" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    <div class="p-3">
+                        <h3 class="font-bold text-lg">Proyecto 1</h3>
+                        <p class="text-xs">Plataforma completa de comercio electrónico con carrito de compras, pasarela
+                            de pagos y panel de administración..</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2  p-3">
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">Laravel
+                        </div>
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">Tailwind
+                            CSS</div>
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">
+                            JavaScript</div>
+                    </div>
+
+                    <div class="p-3 pt-0">
+                        <div class="flex items-center gap-4 text-sm text-gray-700">
+                            <p class="flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-4 h-4">
+                                    <path
+                                        d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 2c1.65 0 3.14.67 4.22 1.76l-2.1 2.1A5 5 0 0 0 12 7V4Zm-2 0v3a5 5 0 0 0-2.12.86l-2.1-2.1A7.95 7.95 0 0 1 10 4Zm-5.66 3.34 2.1 2.1A5 5 0 0 0 5 12H2c0-1.79.58-3.45 1.34-4.66ZM2 14h3a5 5 0 0 0 1.44 2.56l-2.1 2.1A7.96 7.96 0 0 1 2 14Zm3.34 5.66 2.1-2.1A5 5 0 0 0 10 17v3a7.95 7.95 0 0 1-4.66-1.34ZM12 20v-3a5 5 0 0 0 2.56-1.44l2.1 2.1A7.95 7.95 0 0 1 12 20Zm4.66-1.34-2.1-2.1A5 5 0 0 0 19 14h3a7.96 7.96 0 0 1-2.34 4.66ZM19 12a5 5 0 0 0-1.44-2.56l2.1-2.1A7.96 7.96 0 0 1 22 12h-3Z" />
+                                </svg>
+                                demo
+                            </p>
+                            <p class="flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-4 h-4">
+                                    <path fill-rule="evenodd"
+                                        d="M12 2C6.477 2 2 6.586 2 12.244c0 4.525 2.865 8.365 6.839 9.72.5.094.682-.222.682-.493 0-.243-.009-.887-.014-1.742-2.782.618-3.369-1.375-3.369-1.375-.455-1.18-1.11-1.494-1.11-1.494-.908-.636.069-.623.069-.623 1.004.072 1.532 1.056 1.532 1.056.893 1.566 2.341 1.114 2.91.851.09-.667.35-1.114.636-1.37-2.22-.259-4.555-1.14-4.555-5.075 0-1.121.39-2.037 1.029-2.755-.103-.26-.446-1.304.098-2.718 0 0 .84-.274 2.75 1.052A9.32 9.32 0 0 1 12 7.1c.85.004 1.706.117 2.504.344 1.909-1.326 2.748-1.052 2.748-1.052.546 1.414.203 2.458.1 2.718.64.718 1.027 1.634 1.027 2.755 0 3.945-2.339 4.813-4.566 5.067.359.318.678.944.678 1.902 0 1.372-.012 2.478-.012 2.815 0 .274.18.592.688.492A10.257 10.257 0 0 0 22 12.244C22 6.586 17.523 2 12 2Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                codigo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 group">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://www.hubspot.com/hubfs/media/sitioweb-1.jpeg" alt="Proyecto 1 
+                        Imagen" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    <div class="p-3">
+                        <h3 class="font-bold text-lg">Proyecto 1</h3>
+                        <p class="text-xs">Plataforma completa de comercio electrónico con carrito de compras, pasarela
+                            de pagos y panel de administración..</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2  p-3">
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">Laravel
+                        </div>
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">Tailwind
+                            CSS</div>
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">
+                            JavaScript</div>
+                    </div>
+
+                    <div class="p-3 pt-0">
+                        <div class="flex items-center gap-4 text-sm text-gray-700">
+                            <p class="flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-4 h-4">
+                                    <path
+                                        d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 2c1.65 0 3.14.67 4.22 1.76l-2.1 2.1A5 5 0 0 0 12 7V4Zm-2 0v3a5 5 0 0 0-2.12.86l-2.1-2.1A7.95 7.95 0 0 1 10 4Zm-5.66 3.34 2.1 2.1A5 5 0 0 0 5 12H2c0-1.79.58-3.45 1.34-4.66ZM2 14h3a5 5 0 0 0 1.44 2.56l-2.1 2.1A7.96 7.96 0 0 1 2 14Zm3.34 5.66 2.1-2.1A5 5 0 0 0 10 17v3a7.95 7.95 0 0 1-4.66-1.34ZM12 20v-3a5 5 0 0 0 2.56-1.44l2.1 2.1A7.95 7.95 0 0 1 12 20Zm4.66-1.34-2.1-2.1A5 5 0 0 0 19 14h3a7.96 7.96 0 0 1-2.34 4.66ZM19 12a5 5 0 0 0-1.44-2.56l2.1-2.1A7.96 7.96 0 0 1 22 12h-3Z" />
+                                </svg>
+                                demo
+                            </p>
+                            <p class="flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-4 h-4">
+                                    <path fill-rule="evenodd"
+                                        d="M12 2C6.477 2 2 6.586 2 12.244c0 4.525 2.865 8.365 6.839 9.72.5.094.682-.222.682-.493 0-.243-.009-.887-.014-1.742-2.782.618-3.369-1.375-3.369-1.375-.455-1.18-1.11-1.494-1.11-1.494-.908-.636.069-.623.069-.623 1.004.072 1.532 1.056 1.532 1.056.893 1.566 2.341 1.114 2.91.851.09-.667.35-1.114.636-1.37-2.22-.259-4.555-1.14-4.555-5.075 0-1.121.39-2.037 1.029-2.755-.103-.26-.446-1.304.098-2.718 0 0 .84-.274 2.75 1.052A9.32 9.32 0 0 1 12 7.1c.85.004 1.706.117 2.504.344 1.909-1.326 2.748-1.052 2.748-1.052.546 1.414.203 2.458.1 2.718.64.718 1.027 1.634 1.027 2.755 0 3.945-2.339 4.813-4.566 5.067.359.318.678.944.678 1.902 0 1.372-.012 2.478-.012 2.815 0 .274.18.592.688.492A10.257 10.257 0 0 0 22 12.244C22 6.586 17.523 2 12 2Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                codigo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-200 group">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://www.hubspot.com/hubfs/media/sitioweb-1.jpeg" alt="Proyecto 1 
+                        Imagen" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    <div class="p-3">
+                        <h3 class="font-bold text-lg">Proyecto 1</h3>
+                        <p class="text-xs">Plataforma completa de comercio electrónico con carrito de compras, pasarela
+                            de pagos y panel de administración..</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2  p-3">
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">Laravel
+                        </div>
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">Tailwind
+                            CSS</div>
+                        <div class="text-blue-600 bg-blue-100 p-1 rounded-xl text-[10px] font-bold text-center">
+                            JavaScript</div>
+                    </div>
+
+                    <div class="p-3 pt-0">
+                        <div class="flex items-center gap-4 text-sm text-gray-700">
+                            <p class="flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-4 h-4">
+                                    <path
+                                        d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 2c1.65 0 3.14.67 4.22 1.76l-2.1 2.1A5 5 0 0 0 12 7V4Zm-2 0v3a5 5 0 0 0-2.12.86l-2.1-2.1A7.95 7.95 0 0 1 10 4Zm-5.66 3.34 2.1 2.1A5 5 0 0 0 5 12H2c0-1.79.58-3.45 1.34-4.66ZM2 14h3a5 5 0 0 0 1.44 2.56l-2.1 2.1A7.96 7.96 0 0 1 2 14Zm3.34 5.66 2.1-2.1A5 5 0 0 0 10 17v3a7.95 7.95 0 0 1-4.66-1.34ZM12 20v-3a5 5 0 0 0 2.56-1.44l2.1 2.1A7.95 7.95 0 0 1 12 20Zm4.66-1.34-2.1-2.1A5 5 0 0 0 19 14h3a7.96 7.96 0 0 1-2.34 4.66ZM19 12a5 5 0 0 0-1.44-2.56l2.1-2.1A7.96 7.96 0 0 1 22 12h-3Z" />
+                                </svg>
+                                demo
+                            </p>
+                            <p class="flex items-center gap-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-4 h-4">
+                                    <path fill-rule="evenodd"
+                                        d="M12 2C6.477 2 2 6.586 2 12.244c0 4.525 2.865 8.365 6.839 9.72.5.094.682-.222.682-.493 0-.243-.009-.887-.014-1.742-2.782.618-3.369-1.375-3.369-1.375-.455-1.18-1.11-1.494-1.11-1.494-.908-.636.069-.623.069-.623 1.004.072 1.532 1.056 1.532 1.056.893 1.566 2.341 1.114 2.91.851.09-.667.35-1.114.636-1.37-2.22-.259-4.555-1.14-4.555-5.075 0-1.121.39-2.037 1.029-2.755-.103-.26-.446-1.304.098-2.718 0 0 .84-.274 2.75 1.052A9.32 9.32 0 0 1 12 7.1c.85.004 1.706.117 2.504.344 1.909-1.326 2.748-1.052 2.748-1.052.546 1.414.203 2.458.1 2.718.64.718 1.027 1.634 1.027 2.755 0 3.945-2.339 4.813-4.566 5.067.359.318.678.944.678 1.902 0 1.372-.012 2.478-.012 2.815 0 .274.18.592.688.492A10.257 10.257 0 0 0 22 12.244C22 6.586 17.523 2 12 2Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                codigo
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section id="habilidades" class="p-10 flex flex-col items-center gap-5 bg-gray-100">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Habilidades Tecnicas</h2>
+            <p class="text-xl text-gray-500">Tecnologias y herramientas que domino </p>
+
+            <div class=" grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-4xl">
+
+                <div class="border rounded-xl bg-white p-3 border-gray-200 shadow-md ">
+                    <div class="flex  items-center gap-2 mb-4">
+                        <div class="bg-gradient-to-r from-blue-500 to-sky-500 size-11 rounded-xl flex items-center justify-center  mb-2">
+                            <i class="fa-brands fa-html5 text-white text-xl"></i>
+                        </div>
+                        <p class="text-lg font-bold">Fontend</p>
+                    </div>
+
+                    <div id="porcentaje">
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">React</p>
+                                <p class="text-sm">80%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-blue-400 to-blue-600 h-3 rounded-full"
+                                    style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">JavaScript</p>
+                                <p class="text-sm"  >95%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-blue-400 to-blue-600 h-3 rounded-full"
+                                    style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">Tailwind CSS</p>
+                                <p class="text-sm">90%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-blue-400 to-blue-600 h-3 rounded-full"
+                                    style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">Next.js</p>
+                                <p class="text-sm">30%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-blue-400 to-blue-600 h-3 rounded-full"
+                                    style="width: 30%;"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="border rounded-xl bg-white p-3 border-gray-200 shadow-md ">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="bg-gradient-to-r from-green-500 to-emerald-500 size-11 rounded-xl flex items-center justify-center mb-2">
+                            <i class="fa-brands fa-node-js text-white text-xl"></i>
+                        </div>
+                        <p class="text-lg font-bold">Backend</p>
+                    </div>
+
+                    <div id="porcentaje">
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">Laravel</p>
+                                <p class="text-sm">90%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-green-400 to-green-600 h-3 rounded-full" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">Python</p>
+                                <p class="text-sm">75%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-green-400 to-green-600 h-3 rounded-full" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">Node.js</p>
+                                <p class="text-sm">20%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-green-400 to-green-600 h-3 rounded-full" style="width: 20%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">Java</p>
+                                <p class="text-sm">85%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-green-400 to-green-600 h-3 rounded-full" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border rounded-xl bg-white p-3 border-gray-200 shadow-md ">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="bg-gradient-to-r from-yellow-500 to-orange-500 size-11 rounded-xl flex items-center justify-center mb-2">
+                            <i class="fa-solid fa-database text-white text-xl"></i>
+                        </div>
+                        <p class="text-lg font-bold">Base de datos</p>
+                    </div>
+
+                    <div id="porcentaje">
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">MySQL</p>
+                                <p class="text-sm">90%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-yellow-400 to-yellow-600 h-3 rounded-full" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">MongoDB</p>
+                                <p class="text-sm">50%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-yellow-400 to-yellow-600 h-3 rounded-full" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">PostgreSQL</p>
+                                <p class="text-sm">70%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-yellow-400 to-yellow-600 h-3 rounded-full" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">SQLite</p>
+                                <p class="text-sm">80%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-yellow-400 to-yellow-600 h-3 rounded-full" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border rounded-xl bg-white p-3 border-gray-200 shadow-md ">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="bg-gradient-to-r from-purple-500 to-fuchsia-500 size-11 rounded-xl flex items-center justify-center mb-2">
+                            <i class="fa-solid fa-cloud text-white text-xl"></i>
+                        </div>
+                        <p class="text-lg font-bold">Cloud</p>
+                    </div>
+
+                    <div id="porcentaje">
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">AWS</p>
+                                <p class="text-sm">20%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-purple-400 to-purple-600 h-3 rounded-full" style="width: 20%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">Azure</p>
+                                <p class="text-sm">40%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-purple-400 to-purple-600 h-3 rounded-full" style="width: 40%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">Google Cloud</p>
+                                <p class="text-sm">30%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-purple-400 to-purple-600 h-3 rounded-full" style="width: 30%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border rounded-xl bg-white p-3 border-gray-200 shadow-md ">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="bg-gradient-to-r from-pink-500 to-rose-500 size-11 rounded-xl flex items-center justify-center mb-2">
+                            <i class="fa-solid fa-mobile-screen-button text-white text-xl"></i>
+                        </div>
+                        <p class="text-lg font-bold">Móvil</p>
+                    </div>
+
+                    <div id="porcentaje">
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">Flutter</p>
+                                <p class="text-sm">20%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-pink-400 to-pink-600 h-3 rounded-full" style="width: 20%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">React Native</p>
+                                <p class="text-sm">30%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-pink-400 to-pink-600 h-3 rounded-full" style="width: 30%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">Swift</p>
+                                <p class="text-sm">10%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-pink-400 to-pink-600 h-3 rounded-full" style="width: 10%;"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="flex justify-between ml-5 mr-5">
+                                <p class="text-sm">Android</p>
+                                <p class="text-sm">75%</p>
+                            </div>
+                            <div class="bg-gray-300 h-3 rounded-full ml-5 mr-5 mb-1 mt-1">
+                                <div class="bg-linear-to-r from-pink-400 to-pink-600 h-3 rounded-full" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+                <p class="text-2xl font-bold mb-6 text-center text-gray-900">Otras competencias</p>
+                <div class="flex flex-wrap gap-3 justify-center">
+                    <div class="flex flex-wrap gap-2">
+                        <div class="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-gray-700 rounded-full text-sm border border-blue-200 hover:border-blue-400 transition-colors">Git
+                        </div>
+                        <div class="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-gray-700 rounded-full text-sm border border-blue-200 hover:border-blue-400 transition-colors">Docker
+                        </div>
+                        <div class="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-gray-700 rounded-full text-sm border border-blue-200 hover:border-blue-400 transition-colors">API REST
+                        </div>
+                        <div class="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-gray-700 rounded-full text-sm border border-blue-200 hover:border-blue-400 transition-colors">
+                            Seguridad web
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Contact" class="flex justify-center flex-col  items-center ">
+            <h2 class="pt-4 font-bold text-3xl text-center bg-linear-to-r from-blue-500 to-violet-500 bg-clip-text font-extrabold text-transparent">Informacion de contacto</h2>
+            <p class="text-gray-600 pb-4 text-center">stoy disponible para nuevos proyectos y colaboraciones. No dudes en contactarme a través de cualquiera de
+                estos medios.</p>
+            <div class="flex flex-col gap-8 mb-10 mt-5 w-fit mx-auto items-start">
+                <div class="flex items-center gap-4">
+                    <div class="bg-blue-200 size-10 flex justify-center items-center rounded-sm">
+                        <i class="fa-regular fa-envelope text-blue-500"></i>
+                    </div>
+                    <div class="text-left">
+                        <p class="font-bold text-gray-700">Email</p>
+                        <p class="text-gray-600">alvafrederick45@gmail.com</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="bg-purple-200 size-10 flex items-center justify-center rounded-sm">
+                        <i class="fa-solid fa-phone text-purple-500"></i>
+                    </div>
+                    <div class="text-left">
+                        <p class="font-bold text-gray-700">Teléfono</p>
+                        <p class="text-gray-600">+502 32707277</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <div class="bg-rose-200 size-10 flex items-center justify-center rounded-sm">
+                        <i class="fa-solid fa-location-dot text-rose-800"></i>
+                    </div>
+                    <div class="text-left">
+                        <p class="font-bold text-gray-700">Ubicación</p>
+                        <p class="text-gray-600">Guatemala, Huehuetenango</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full max-w-xl mt-8 p-6 bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl border border-blue-200 "> 
+                <p class="text-gray-700 font-bold">horarios de atencion</p>
+                <p class="text-gray-700">Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                <p class="text-gray-700">Tiempo de respuesta: 12-24 horas</p>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#0f172a] text-white py-12 mt-12 w-full">
+        <div class="container mx-auto px-4 md:px-8 max-w-6xl">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- Columna 1 -->
+                <div>
+                    <h3 class="text-blue-500 text-xl font-bold mb-4">Mi Portafolio</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed max-w-sm">
+                        Desarrollador Full Stack apasionado por crear <span class="bg-blue-600/30 text-blue-200 px-1 py-0.5 rounded">soluciones digitales innovadoras.</span>
+                    </p>
+                </div>
+                
+                <!-- Columna 2 -->
+                <div>
+                    <h3 class="text-white font-bold mb-4 text-base">Enlaces Rápidos</h3>
+                    <ul class="flex flex-col space-y-3 text-gray-400 text-sm">
+                        <li><a href="#Home" class="hover:text-blue-400 transition-colors">Inicio</a></li>
+                        <li><a href="#MisProyectos" class="hover:text-blue-400 transition-colors">Proyectos</a></li>
+                        <li><a href="#habilidades" class="hover:text-blue-400 transition-colors">Habilidades</a></li>
+                        <li><a href="#Contact" class="hover:text-blue-400 transition-colors">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3 -->
+                <div>
+                    <h3 class="text-white font-bold mb-4 text-base">Sígueme</h3>
+                    <div class="flex gap-4">
+                        <a href="https://github.com/Frede44" target="_blank" rel="noopener noreferrer" class="border border-gray-700 size-10 rounded hover:bg-gray-800 transition-colors text-gray-400 hover:text-white flex items-center justify-center">
+                            <i class="fa-brands fa-github text-lg"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/frederick-josué-alva-lópez-2b5362345" target="_blank" rel="noopener noreferrer" class="border border-gray-700 size-10 rounded hover:bg-gray-800 transition-colors text-gray-400 hover:text-white flex items-center justify-center">
+                            <i class="fa-brands fa-linkedin-in text-lg"></i>
+                        </a>
+                        <a href="mailto:alvafrederick45@gmail.com" target="_blank" rel="noopener noreferrer" class="border border-gray-700 size-10 rounded hover:bg-gray-800 transition-colors text-gray-400 hover:text-white flex items-center justify-center">
+                            <i class="fa-regular fa-envelope text-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
+                <p>Hecho con <span class="text-red-500">❤️</span> © 2026 Mi Portafolio versión 1.0. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/74a006e309.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
